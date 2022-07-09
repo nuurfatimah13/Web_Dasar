@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+
+body {
+   font-family: 'Quicksand', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-color: #00c8eb;
+   text-align: center;
+   color: white;
+}
+
+/* .hide-mobile {
+   display: none;
+}
+header {
+   display: flex;
+   justify-content: space-between;
+}
+.menu {
+   width: 25px;
+   margin-top: 45%;
+}
+nav ul {
+   position: fixed;
+   width: 60%;
+   top: 0;
+   right: 0;
+   text-align: left;
+   background: rgb(36, 41, 44);
+   height: 100%;
+   z-index: 7;
+   padding-top: 3em;
+}
+nav ul li a {
+   color: whitesmoke;
+   text-decoration: none;
+   display: block;
+   width: 100%;
+   padding: 1em 2em;
+   background-color: rgb(49, 55, 59);
+}
+nav ul li a:hover {
+   background-color: rgb(65, 73, 78);
+}
+.exit-btn {
+   margin-top: -1.3em;
+   text-align: right;
+   padding-top: 0 1.4em;
+}
+.exit-btn i {
+   width: 15px;
+   cursor: pointer;
+   margin-right: 25px;
+}
+.material-icons.md-light {
+   color: rgba(255, 255, 255, 1);
+}
+
+@media only screen and (min-width: 1024px) {
+   .show-desktop {
+      display: block;
+      margin: 0 auto 13% auto;
+   }
+   .hide-desktop {
+      display: none;
+   }
+   nav ul {
+      position: inherit;
+      width: auto;
+      background: none;
+      height: auto;
+      display: flex;
+      padding-top: 0;
+   }
+   nav ul li {
+      float: left;
+   }
+   nav ul li a {
+      color: black;
+      background-color: inherit;
+      padding: 1em 2em;
+   }
+   nav ul li a:hover {
+      background-color: inherit;
+   }
+} */
+
+header {
+   display: inline;
+}
+
+nav {
+   background-color: #00a2c6;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+
+nav a:hover {
+   font-weight: bold;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+main {
+   padding: 20px;
+   overflow: auto;
+}
+
+#content {
+   text-align: justify;
+   float: left;
+   width: 65%;
+}
+
+aside {
+   float: right;
+   width: 35%;
+   padding-left: 20px;
+}
+
+h2, h3 {
+   color: #00a2c6
+}
+
+#geografis td {
+   padding-left: 1.25rem;
+}
+
+.featured-image {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+
+.profile header {
+   text-align: center;
+}
+
+.profile section {
+   text-align: justify;
+}
+
+.profile img {
+   width: 100%;
+   border-radius: 50%;
+}
+
+.profile th {
+   text-align: left;
+}
+
+.profile td {
+   padding-left: 1.25rem;
+}
+
+.profile a {
+  color: black;
+  text-decoration: none;
+}
+
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #00a2c6;
+   text-align: center;
+   font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
